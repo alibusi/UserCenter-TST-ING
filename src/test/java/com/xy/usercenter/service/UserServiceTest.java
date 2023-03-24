@@ -26,6 +26,7 @@ public class UserServiceTest {
         boolean result = userService.save(user);
         System.out.println(user.getUserId());
         Assertions.assertTrue(result);
+
     }
 
     @Test
